@@ -1,0 +1,116 @@
+\documentclass[11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{mathtools}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathptmx}
+\usepackage[makeroom]{cancel}
+\allowdisplaybreaks
+
+\renewcommand*\contentsname{Table of Contents}
+\title{Algebraic Definitions of Floor}
+\author{Eli Ruminer}
+\date{}
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+\DeclarePairedDelimiter\round{\lfloor}{\rceil}
+\DeclarePairedDelimiter\fractional{\{}{\}}
+\DeclareMathOperator{\hp}{\frac{\pi}{2}}
+\newcommand{\Mod}[2]{\ #1\ \mathrm{mod}\ #2}
+\begin{document}
+\begin{titlepage}
+\clearpage\maketitle
+\thispagestyle{empty}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+
+\section{Introduction}
+This paper seeks to show a method of defining a floor function in algebraic terms and thus defining other number theory functions algebraicly from knowing floor.
+
+\section{Floor}
+We start by defining the fractional operator, which gets the decimal part of x, and removes any whole part to be \[\fractional*{x}\]
+Where\[0\leq\fractional*{x}\leq1\]
+From this we can define the floor function, \(\floor*{x}\) as
+\begin{gather*}
+\floor*{x}=x-\fractional*{x}
+\end{gather*}
+To define this algebraically we first must find a function which finds \(\fractional*{x}\) to be able to subtract it. This can be found by using the function
+\[\operatorname{a}(x)=\tan^{\mathrm{-1}}(\tan(x))\]
+This creates a periodic function increasing linearly from \(-\hp\) to \(\hp\) over \([n\pi-\hp,n\pi+\hp]\) where \(n\in\mathbb{Z}\). We must first decrease the period from \(\pi\) to 1, and range from \(\pi\) to 1, giving us
+\[\operatorname{b}(x)=\frac{a(x\pi)}{\pi}=\frac{\tan^{\mathrm{-1}}(\tan(x\pi))}{\pi}\]
+The function then must be phase shifted 0.5 to "start" each period at an integer, and shifted up so that it is always positive giving us
+\[\fractional*{x}=\operatorname{b}(x-\frac{1}{2}) + \frac{1}{2}=\frac{\tan^{\mathrm{-1}}(\tan(x\pi-\frac{\pi}{2}))}{\pi}+\frac{1}{2}\]
+We then plug the new definition of \(\fractional*{x}\) into the original floor equation to find that
+\[\floor*{x}=x-\frac{\tan^{\mathrm{-1}}(\tan(x\pi-\frac{\pi}{2}))}{\pi}-\frac{1}{2}\]
+Due to using tangent, there are undefined asymptotes at the whole numbers, thus floor cannot be defined truly algebraically, but must still have a piecewise definition of
+\begin{gather*}
+\floor*{x}=\begin{cases}
+x & \text{if } x \in \mathbb{Z}\\
+x-\frac{\tan^{\mathrm{-1}}(\tan(x\pi-\frac{\pi}{2}))}{\pi}-\frac{1}{2} & \text{if } x \in \mathbb{R}\setminus\mathbb{Z}\\
+\end{cases}
+\end{gather*}
+Unless explicitly stated the non-piecewise definition will be used for the rest of the paper.
+
+\section{Ceiling and Round}
+From floor, we can define the other 2 types of rounding functions: Ceiling and Round.
+\subsection{Ceiling}
+Ceiling (ceil) always rounds up and can be defined as
+\begin{gather*}
+\ceil*{x}=\begin{cases}
+x & \text{if } x \in \mathbb{Z}\\
+x-\fractional*{x}+1 & \text{if } x \in \mathbb{R}\setminus\mathbb{Z}
+\end{cases}
+\end{gather*}
+which one will notices shares \(x-\fractional*{x}\) with \(\floor*{x}\) and thus
+\begin{equation*}
+\begin{split}
+\ceil*{x}&=\begin{cases}
+x & \text{if } x \in \mathbb{Z}\\
+\floor*{x}+1 & \text{if } x \in \mathbb{R}\setminus\mathbb{Z}
+\end{cases}\\
+&=\begin{cases}
+x & \text{if } x \in \mathbb{Z}\\
+x-\frac{\tan^{\mathrm{-1}}(\tan(x\pi-\frac{\pi}{2}))}{\pi}+\frac{1}{2} & \text{if } x \in \mathbb{R}\setminus\mathbb{Z}\\
+\end{cases}
+\end{split}
+\end{equation*}
+\subsection{Round}
+Round is defined as
+\begin{equation*}
+\begin{split}
+\round*{x}&=\begin{cases}
+x - \fractional*{x} & \text{if } \fractional*{x} < 0.5\\
+x-\fractional*{x}+1 & \text{if } \fractional*{x} \geq 0.5
+\end{cases}\\
+&=\begin{cases}
+\floor*{x} & \text{if } \fractional*{x} < 0.5\\
+\ceil*{x} & \text{if } \fractional*{x} \geq 0.5
+\end{cases}
+\end{split}
+\end{equation*}
+One notices that \(\round*{x}=\floor*{x+0.5}\) thus
+\begin{equation*}
+\round*{x}=x-\frac{\tan^{\mathrm{-1}}(\tan(x\pi))}{\pi}=\begin{cases}
+x & \text{if } x \in \mathbb{Z}\\
+x-\frac{\tan^{\mathrm{-1}}(\tan(x\pi))}{\pi} & \text{if } x \in \mathbb{R}\setminus\mathbb{Z}\\
+\end{cases}
+\end{equation*}
+\section{Mod}
+We start by defining the function \(\Mod{a}{b}\) as
+\[\Mod{a}{b}=a-b\floor*{\frac{a}{b}}\]
+which substituting the previously defined definition of floor results in
+\begin{equation*}
+\begin{split}
+\Mod{a}{b}&=a-b(\frac{a}{b}-\frac{\tan^{\mathrm{-1}}(\tan(\frac{a\pi}{b}-\frac{\pi}{2}))}{\pi}-\frac{1}{2})
+\\&=\frac{b}{\pi}\cdot\tan^{\mathrm{-1}}(\tan(\frac{a\pi}{b}-\frac{\pi}{2}))-\frac{b}{2}
+\end{split}
+\end{equation*}
+\section{Proof}
+Hahahahahahaha no idea lol
+\end{document}
