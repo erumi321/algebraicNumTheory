@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.22)  29 AUG 2023 17:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.22)  14 FEB 2024 16:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**algebraicFloor.tex
-(./algebraicFloor.tex
-LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-05-15>
-(d:/Working Folders/texlive/2023/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
-(d:/Working Folders/texlive/2023/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+**./algebraicFloor.tex
+(algebraicFloor.tex
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-08-29>
+(C:\Users\erumi\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(C:\Users\erumi\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
+File: size11.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@section=\count186
@@ -23,25 +23,25 @@ File: size11.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
 )
-(d:/Working Folders/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
+(C:\Users\erumi\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks16
-\inpenc@posthook=\toks17
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
 )
-(d:/Working Folders/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
+(C:\Users\erumi\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
-(d:/Working Folders/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
+(C:\Users\erumi\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(d:/Working Folders/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
+(C:\Users\erumi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks18
+\KV@toks@=\toks19
 )
-(d:/Working Folders/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
+(C:\Users\erumi\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-(d:/Working Folders/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
+(C:\Users\erumi\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
 \Gm@cnth=\count193
@@ -55,12 +55,13 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layoutheight=\dimen146
 \Gm@layouthoffset=\dimen147
 \Gm@layoutvoffset=\dimen148
-\Gm@dimlist=\toks19
-)
-(d:/Working Folders/texlive/2023/texmf-dist/tex/latex/mathtools/mathtools.sty
-Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
+\Gm@dimlist=\toks20
 
-(d:/Working Folders/texlive/2023/texmf-dist/tex/latex/tools/calc.sty
+(C:\Users\erumi\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+
+(C:\Users\erumi\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
+Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
+(C:\Users\erumi\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count196
 \calc@Bcount=\count197
@@ -73,27 +74,27 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count198
 \calc@Cskip=\skip52
 )
-(d:/Working Folders/texlive/2023/texmf-dist/tex/latex/mathtools/mhsetup.sty
+(C:\Users\erumi\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
-(d:/Working Folders/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2022/04/08 v2.17n AMS math features
+(C:\Users\erumi\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
 \@mathmargin=\skip53
 
 For additional information on amsmath, use the `?' option.
-(d:/Working Folders/texlive/2023/texmf-dist/tex/latex/amsmath/amstext.sty
+(C:\Users\erumi\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
 
-(d:/Working Folders/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty
+(C:\Users\erumi\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks20
+\@emptytoks=\toks21
 \ex@=\dimen151
 ))
-(d:/Working Folders/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(C:\Users\erumi\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen152
 )
-(d:/Working Folders/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
+(C:\Users\erumi\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count199
@@ -126,21 +127,21 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \dotsspace@=\muskip16
 \c@parentequation=\count272
 \dspbrk@lvl=\count273
-\tag@help=\toks21
+\tag@help=\toks22
 \row@=\count274
 \column@=\count275
 \maxfields@=\count276
-\andhelp@=\toks22
+\andhelp@=\toks23
 \eqnshift@=\dimen154
 \alignsep@=\dimen155
 \tagshift@=\dimen156
 \tagwidth@=\dimen157
 \totwidth@=\dimen158
 \lineht@=\dimen159
-\@envbody=\toks23
+\@envbody=\toks24
 \multlinegap=\skip54
 \multlinetaggap=\skip55
-\mathdisplay@stack=\toks24
+\mathdisplay@stack=\toks25
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
@@ -156,7 +157,7 @@ LaTeX Info: Redefining \] on input line 2954.
 \xmathstrut@box=\box53
 \xmathstrut@dim=\dimen167
 )
-(d:/Working Folders/texlive/2023/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(C:\Users\erumi\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
@@ -164,10 +165,10 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-(d:/Working Folders/texlive/2023/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(C:\Users\erumi\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-(d:/Working Folders/texlive/2023/texmf-dist/tex/latex/psnfss/mathptmx.sty
+(C:\Users\erumi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\mathptmx.sty
 Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -203,37 +204,37 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
 LaTeX Info: Redefining \hbar on input line 50.
 )
-(d:/Working Folders/texlive/2023/texmf-dist/tex/latex/cancel/cancel.sty
+(C:\Users\erumi\AppData\Local\Programs\MiKTeX\tex/latex/cancel\cancel.sty
 Package: cancel 2013/04/12 v2.2 Cancel math terms
 )
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 24
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 25
 .
 
-(d:/Working Folders/texlive/2023/texmf-dist/tex/latex/psnfss/t1ptm.fd
+(C:\Users\erumi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
-(d:/Working Folders/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdfte
-x.def
+(C:\Users\erumi\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count278
 \l__pdf_internal_box=\box54
-) (./algebraicFloor.aux)
+) (algebraicFloor.aux)
 \openout1 = `algebraicFloor.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -269,124 +270,133 @@ LaTeX Font Info:    ... okay on input line 24.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(d:/Working Folders/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+(C:\Users\erumi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(d:/Working Folders/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+(C:\Users\erumi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
 
-(d:/Working Folders/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
+(C:\Users\erumi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
-(d:/Working Folders/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(C:\Users\erumi\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
- (d:/Working Folders/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
+
+(C:\Users\erumi\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 
-(d:/Working Folders/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(C:\Users\erumi\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count279
 \scratchdimen=\dimen168
 \scratchbox=\box55
 \nofMPsegments=\count280
 \nofMParguments=\count281
-\everyMPshowfont=\toks25
+\everyMPshowfont=\toks26
 \MPscratchCnt=\count282
 \MPscratchDim=\dimen169
 \MPnumerator=\count283
 \makeMPintoPDFobject=\count284
-\everyMPtoPDFconversion=\toks26
+\everyMPtoPDFconversion=\toks27
 )))
-(d:/Working Folders/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-bas
-e.sty
+(C:\Users\erumi\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(d:/Working Folders/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.
-cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
+(C:\Users\erumi\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 \Gin@req@height=\dimen170
 \Gin@req@width=\dimen171
 )
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 26.
- (d:/Working Folders/texlive/2023/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+ 27.
+
+(C:\Users\erumi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 26.
- (d:/Working Folders/texlive/2023/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+ 27.
+
+(C:\Users\erumi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 26.
+ 27.
 
-(d:/Working Folders/texlive/2023/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+(C:\Users\erumi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 26.
+ 27.
 
-(d:/Working Folders/texlive/2023/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+(C:\Users\erumi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 2
-6.
+7.
 
-(d:/Working Folders/texlive/2023/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+(C:\Users\erumi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
 
 [1
 
 
-{d:/Working Folders/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{
-d:/Working Folders/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}]
-(./algebraicFloor.toc
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
-)
+{C:/Users/erumi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/erum
+i/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
+(algebraicFloor.toc)
 \tf@toc=\write3
 \openout3 = `algebraicFloor.toc'.
 
- [1] [2] [3] [4] (./algebraicFloor.aux) ) 
+ [1]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 38.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 38.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 38.
+ [2] [3] [4] (algebraicFloor.aux)
+ ***********
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-08-29>
+ ***********
+ ) 
 Here is how much of TeX's memory you used:
- 4341 strings out of 476096
- 67828 string characters out of 5795114
- 1866845 words of memory out of 5000000
- 24646 multiletter control sequences out of 15000+600000
- 564953 words of font info for 122 fonts, out of 8000000 for 9000
+ 4272 strings out of 475247
+ 65381 string characters out of 5757791
+ 1932785 words of memory out of 5000000
+ 25724 multiletter control sequences out of 15000+600000
+ 606068 words of font info for 121 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,23n,76p,268b,269s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<d:/Working Folders/texlive/2023/texmf
--dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/Working Folders/texlive/202
-3/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/Working Folders/texl
-ive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/Working Folder
-s/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/Working
- Folders/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
-><d:/Working Folders/texlive/2023/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><d
-:/Working Folders/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><d:/
-Working Folders/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><d:/Wo
-rking Folders/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on algebraicFloor.pdf (5 pages, 81096 bytes).
+ 70i,23n,79p,281b,269s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/erumi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmex10.pfb><C:/Users/erumi/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmmi10.pfb><C:/Users/erumi/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmr10.pfb><C:/Users/erumi/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/erumi/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/erumi/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/erum
+i/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/erumi
+/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/erumi
+/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/erumi
+/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on algebraicFloor.pdf (5 pages, 97592 bytes).
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
- 40 compressed objects within 1 object stream
+ 69 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

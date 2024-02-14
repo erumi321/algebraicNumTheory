@@ -12,7 +12,7 @@
 \allowdisplaybreaks
 
 \renewcommand*\contentsname{Table of Contents}
-\title{Algebraic Definitions of Floor}
+\title{Algebraic Definitions of Number Theory Functions}
 \author{Eli Ruminer}
 \date{}
 \DeclarePairedDelimiter\ceil{\lceil}{\rceil}
@@ -21,6 +21,7 @@
 \DeclarePairedDelimiter\fractional{\{}{\}}
 \DeclareMathOperator{\hp}{\frac{\pi}{2}}
 \newcommand{\Mod}[2]{\ #1\ \mathrm{mod}\ #2}
+\newcommand{\fractionalAlg}{\frac{\cot^{\mathrm{-1}}(\cot(x\pi))}{\pi}}
 \begin{document}
 \begin{titlepage}
 \clearpage\maketitle
@@ -45,14 +46,19 @@ To define this algebraically we first must find a function which finds \(\fracti
 This creates a periodic function increasing linearly from \(-\hp\) to \(\hp\) over \([n\pi-\hp,n\pi+\hp]\) where \(n\in\mathbb{Z}\). We must first decrease the period from \(\pi\) to 1, and range from \(\pi\) to 1, giving us
 \[\operatorname{b}(x)=\frac{a(x\pi)}{\pi}=\frac{\tan^{\mathrm{-1}}(\tan(x\pi))}{\pi}\]
 The function then must be phase shifted 0.5 to "start" each period at an integer, and shifted up so that it is always positive giving us
-\[\fractional*{x}=\operatorname{b}(x-\frac{1}{2}) + \frac{1}{2}=\frac{\tan^{\mathrm{-1}}(\tan(x\pi-\frac{\pi}{2}))}{\pi}+\frac{1}{2}\]
+
+\begin{align*}
+\fractional*{x}=\operatorname{b}(x-\frac{1}{2}) + \frac{1}{2} & =\frac{\tan^{\mathrm{-1}}(\tan(x\pi-\frac{\pi}{2}))}{\pi}+\frac{1}{2}\\
+& = \fractionalAlg
+\end{align*}
+
 We then plug the new definition of \(\fractional*{x}\) into the original floor equation to find that
-\[\floor*{x}=x-\frac{\tan^{\mathrm{-1}}(\tan(x\pi-\frac{\pi}{2}))}{\pi}-\frac{1}{2}\]
+\[\floor*{x}=x-\fractionalAlg\]
 Due to using tangent, there are undefined asymptotes at the whole numbers, thus floor cannot be defined truly algebraically, but must still have a piecewise definition of
 \begin{gather*}
 \floor*{x}=\begin{cases}
 x & \text{if } x \in \mathbb{Z}\\
-x-\frac{\tan^{\mathrm{-1}}(\tan(x\pi-\frac{\pi}{2}))}{\pi}-\frac{1}{2} & \text{if } x \in \mathbb{R}\setminus\mathbb{Z}\\
+x-\fractionalAlg & \text{if } x \in \mathbb{R}\setminus\mathbb{Z}\\
 \end{cases}
 \end{gather*}
 Unless explicitly stated the non-piecewise definition will be used for the rest of the paper.
@@ -76,7 +82,7 @@ x & \text{if } x \in \mathbb{Z}\\
 \end{cases}\\
 &=\begin{cases}
 x & \text{if } x \in \mathbb{Z}\\
-x-\frac{\tan^{\mathrm{-1}}(\tan(x\pi-\frac{\pi}{2}))}{\pi}+\frac{1}{2} & \text{if } x \in \mathbb{R}\setminus\mathbb{Z}\\
+x-\fractionalAlg & \text{if } x \in \mathbb{R}\setminus\mathbb{Z}\\
 \end{cases}
 \end{split}
 \end{equation*}
@@ -101,16 +107,23 @@ x & \text{if } x \in \mathbb{Z}\\
 x-\frac{\tan^{\mathrm{-1}}(\tan(x\pi))}{\pi} & \text{if } x \in \mathbb{R}\setminus\mathbb{Z}\\
 \end{cases}
 \end{equation*}
+
 \section{Mod}
 We start by defining the function \(\Mod{a}{b}\) as
-\[\Mod{a}{b}=a-b\floor*{\frac{a}{b}}\]
+\begin{align*}
+\Mod{a}{b} &=n \textrm{ where } a \equiv n (\textrm{mod} b)\\
+&=a-b\floor*{\frac{a}{b}}
+\end{align*}
 which substituting the previously defined definition of floor results in
 \begin{equation*}
 \begin{split}
-\Mod{a}{b}&=a-b(\frac{a}{b}-\frac{\tan^{\mathrm{-1}}(\tan(\frac{a\pi}{b}-\frac{\pi}{2}))}{\pi}-\frac{1}{2})
-\\&=\frac{b}{\pi}\cdot\tan^{\mathrm{-1}}(\tan(\frac{a\pi}{b}-\frac{\pi}{2}))-\frac{b}{2}
+\Mod{a}{b}&=a-b(\frac{a}{b}-\frac{\cot^{\mathrm{-1}}(\cot(\frac{a\pi}{b}))}{\pi})
+\\&=\frac{b}{\pi}\cot^{\mathrm{-1}}(\cot(\frac{a\pi}{b}))
 \end{split}
 \end{equation*}
 \section{Proof}
-Hahahahahahaha no idea lol
+\begin{equation}
+\frac{d}{dx} \floor{x}=\frac{d}{dx} (x-\fractionalAlg)=1-1=0
+\end{equation}
+By the definition of \(\floor{x}\), when \(x\in\mathbb{Z},\ \floor{x}=x\), and that \(\frac{d}{dx}\floor{x}=0\), \(\floor{x}\) is constant between integers, and jumps to each integer at that integer \(\blacksquare\)
 \end{document}
