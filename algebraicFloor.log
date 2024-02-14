@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.22)  14 FEB 2024 16:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.22)  14 FEB 2024 16:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -358,29 +358,29 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 
 {C:/Users/erumi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/erum
 i/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
-(algebraicFloor.toc)
+(algebraicFloor.toc
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
+)
 \tf@toc=\write3
 \openout3 = `algebraicFloor.toc'.
 
- [1]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 38.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 38.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 38.
- [2] [3] [4] (algebraicFloor.aux)
+ [1] [2] [3] [4] (algebraicFloor.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4272 strings out of 475247
- 65381 string characters out of 5757791
+ 4274 strings out of 475247
+ 65403 string characters out of 5757791
  1932785 words of memory out of 5000000
- 25724 multiletter control sequences out of 15000+600000
- 606068 words of font info for 121 fonts, out of 8000000 for 9000
+ 25725 multiletter control sequences out of 15000+600000
+ 608871 words of font info for 123 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,23n,79p,281b,269s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/erumi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
@@ -394,7 +394,7 @@ i/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/erumi
 /AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/erumi
 /AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/erumi
 /AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on algebraicFloor.pdf (5 pages, 97592 bytes).
+Output written on algebraicFloor.pdf (5 pages, 97770 bytes).
 PDF statistics:
  69 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
